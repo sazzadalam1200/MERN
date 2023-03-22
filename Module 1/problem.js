@@ -141,8 +141,20 @@
     //   fibonacci(10)
 
 //#16: Create a function that will return a Boolean specifying if a number is prime
-
-
+// function isPrime(n){
+//     if(n<=1){
+//         return false
+//     }
+//     for(let i = 2; i<= Math.sqrt(n); i++){
+//         if(n%i===0){
+//             return false
+//         }
+//     }
+//     return true
+// }
+// console.log(isPrime(13))
+// console.log(isPrime(26))
+// console.log(isPrime(37))
 
 //#17: Calculate the sum of digits of a positive integer number
 
