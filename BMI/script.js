@@ -9,15 +9,18 @@ const showBmi = document.getElementById("bmi-el")
 
 //bmi calculation function
 function calBmi(w,h){
-    let bmi = w/(h*h)
-    showBmi.innerHTML = bmi
-    console.log(bmi)
+    if(w>=0 && h >=0){
+        let bmi = w/(h*h)
+    showBmi.innerHTML = "BMI: <br>"+ +bmi.toFixed(2) 
+    }
+    else{
+        alert("Invalid Number")
+    }
 }
 
 //button for calculation
 calculate.addEventListener("click", function(){
     calBmi(weight.value,height.value)
-    console.log("bmi calculated")
 })
 
 //button to clear
@@ -25,6 +28,6 @@ clear.addEventListener("click", function(){
     console.log("button clicked")
     height.value=""
     weight.value=""
-    
+    showBmi.innerHTML=""
 })
 
