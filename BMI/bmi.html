@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>BMI</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>BMI</title>
+    </head>
+
+    <body>
+        <div class="w3-container">
+            <label class = "label">Height:</label><br>
+            <input type="text" id="height" placeholder="Meter"><br>
+
+            <label class = "label">Weight:</label><br>
+            <input type="text" id="weight" placeholder="Kg"><br><br>
+
+            <button id="cal-btn">Calculate</button>
+            <button id="clr-btn">Clear</button>
+            <p id="bmi-el"></p>
+
+        </div>
+        <script src="script.js"></script>  
+    </body>
 </html>
