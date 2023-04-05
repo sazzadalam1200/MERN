@@ -1,8 +1,11 @@
 //spread operator
-// let alph1 = ['a','b','c','d','e']
-// let alph2 = ['f','g','h','i']
-// let alph3 = [...alph1,'f','g','h','i']
-// console.log(alph2)
+// const alph1 = ['a','b','c','d','e']
+
+// const alph3 = [...alph1]
+// alph3.push(4)
+// console.log(alph1)
+// console.log(alph3)
+
 
 //rest parameter
 // function add(...num){
@@ -22,3 +25,8 @@
 
 // let csgo=[arr1,arr2,arr3]
 // console.log(csgo[1][1])
+
+//de-structuring
+// let rifle = ['ak','m4','famas','galil']
+// let[a,,,d]=rifle
+// console.log(null===undefined)
